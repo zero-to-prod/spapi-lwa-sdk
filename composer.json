@@ -34,7 +34,7 @@
   "require": {
     "php": ">=8.1",
     "zero-to-prod/data-model": "^81.9",
-    "zero-to-prod/spapi-lwa": "^1.0",
+    "zero-to-prod/spapi-lwa": "^1.0 || ^4.0",
     "zero-to-prod/transformable": "^71.0",
     "zero-to-prod/curl-helper-sdk": "^1.0",
     "zero-to-prod/arr": "^1.0"
