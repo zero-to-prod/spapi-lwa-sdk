@@ -19,7 +19,7 @@ class SpapiLwaSdk
     public static function refreshToken(string $url, string $refresh_token, string $client_id, string $client_secret, ?string $user_agent = null): RefreshTokenResponse
     {
         return RefreshTokenResponse::fromResponse(
-            SpapiLwa::refreshToken($url, $refresh_token, $client_id, $client_secret, $user_agent),
+            SpapiLwa::from($url, $refresh_token, $client_id, $client_secret, $user_agent),
         );
     }
 
